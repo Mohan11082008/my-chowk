@@ -1,0 +1,7 @@
+{
+  "name": "MY CHOWK",
+  "description": "Local Jobs. Local People. Connects local workers searching for work with small shops and local businesses in Nagpur and across India.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
