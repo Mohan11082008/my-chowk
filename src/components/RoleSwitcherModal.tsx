@@ -136,7 +136,7 @@ export const RoleSwitcherModal: React.FC<RoleSwitcherModalProps> = ({
           </button>
           <div className="flex items-center gap-3">
             <img
-              src="/assets/aistudio/WhatsApp_Image_2026-10-20_at_3.29.08_PM_8c34b5f8.jpeg"
+              src={`${import.meta.env.BASE_URL}assets/aistudio/WhatsApp_Image_2026-10-20_at_3.29.08_PM_8c34b5f8.jpeg`}
               alt="MY CHOWK"
               className="w-11 h-11 rounded-xl object-contain bg-white p-1"
             />

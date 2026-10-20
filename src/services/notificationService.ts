@@ -73,8 +73,8 @@ class NotificationService {
       try {
         const notif = new Notification(title, {
           body: options?.body,
-          icon: '/assets/aistudio/WhatsApp_Image_2026-10-20_at_3.29.08_PM_8c34b5f8.jpeg',
-          badge: '/assets/aistudio/WhatsApp_Image_2026-10-20_at_3.29.08_PM_8c34b5f8.jpeg',
+          icon: `${import.meta.env.BASE_URL}assets/aistudio/WhatsApp_Image_2026-10-20_at_3.29.08_PM_8c34b5f8.jpeg`,
+          badge: `${import.meta.env.BASE_URL}assets/aistudio/WhatsApp_Image_2026-10-20_at_3.29.08_PM_8c34b5f8.jpeg`,
           tag: options?.tag,
         });
 

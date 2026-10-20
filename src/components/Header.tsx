@@ -28,7 +28,7 @@ export const Header: React.FC<HeaderProps> = ({
         {/* Zone 1: Brand & Logo */}
         <div className="flex items-center gap-2.5 shrink-0">
           <img
-            src="/assets/aistudio/WhatsApp_Image_2026-10-20_at_3.29.08_PM_8c34b5f8.jpeg"
+            src={`${import.meta.env.BASE_URL}assets/aistudio/WhatsApp_Image_2026-10-20_at_3.29.08_PM_8c34b5f8.jpeg`}
             alt="MY CHOWK"
             className="w-10 h-10 object-contain rounded-xl"
           />

@@ -71,7 +71,7 @@ const INITIAL_BUSINESSES: BusinessProfile[] = [
     city: 'Nagpur',
     fullAddress: 'Plot 42, Main Road, Near Variety Square, Sitabuldi, Nagpur, MH 440012',
     description: 'Trusted family-run grocery supermarket serving Nagpur for 18 years. We offer punctual monthly salary, tea and snack allowance, and Diwali bonus.',
-    photoUrl: '/assets/aistudio/WhatsApp_Image_2026-10-20_at_3.29.08_PM_8c34b5f8.jpeg',
+    photoUrl: `${import.meta.env.BASE_URL}assets/aistudio/WhatsApp_Image_2026-10-20_at_3.29.08_PM_8c34b5f8.jpeg`,
     verificationStatus: 'verified',
     verificationDocsSubmitted: true,
   },

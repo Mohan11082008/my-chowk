@@ -1,10 +1,10 @@
 {
-  "id": "/",
+  "id": "./",
   "name": "MY CHOWK — Local Jobs. Local People.",
   "short_name": "MY CHOWK",
   "description": "Connects local workers with shops and local businesses in Nagpur and across India.",
-  "start_url": "/",
-  "scope": "/",
+  "start_url": "./",
+  "scope": "./",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#ffffff",
@@ -12,13 +12,13 @@
   "categories": ["business", "jobs", "productivity"],
   "icons": [
     {
-      "src": "/assets/aistudio/WhatsApp_Image_2026-10-20_at_3.29.08_PM_8c34b5f8.jpeg",
+      "src": "assets/aistudio/WhatsApp_Image_2026-10-20_at_3.29.08_PM_8c34b5f8.jpeg",
       "sizes": "512x512",
       "type": "image/jpeg",
       "purpose": "any"
     },
     {
-      "src": "/assets/aistudio/WhatsApp_Image_2026-10-20_at_3.29.08_PM_8c34b5f8.jpeg",
+      "src": "assets/aistudio/WhatsApp_Image_2026-10-20_at_3.29.08_PM_8c34b5f8.jpeg",
       "sizes": "192x192",
       "type": "image/jpeg",
       "purpose": "any"

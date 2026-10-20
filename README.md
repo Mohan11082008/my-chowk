@@ -18,3 +18,9 @@ View your app in AI Studio: https://ai.studio/apps/5ee635da-0b81-4f9c-b285-7eb2b
 2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
 3. Run the app:
    `npm run dev`
+
+## Deploy to GitHub Pages
+
+The `Deploy to GitHub Pages` workflow builds the Vite app and publishes the `dist` folder when changes are pushed to `main`.
+
+In the repository settings, open **Settings → Pages** and set the build and deployment source to **GitHub Actions**. Once the workflow finishes successfully, the site is available at `https://mohan11082008.github.io/my-chowk/`.
